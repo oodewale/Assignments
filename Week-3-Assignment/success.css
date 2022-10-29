@@ -1,0 +1,65 @@
+
+*{
+    margin: 0;   
+    padding: 0;
+    box-sizing: border-box;
+   }
+   html{
+       scroll-behavior: smooth;
+   }
+   body{
+    width: 600px;
+    height: 100px;
+      background-image: url(https://img.freepik.com/free-vector/low-poly-white-background-design_1017-33204.jpg?w=2000) ;
+      background-attachment: fixed;}
+main{
+    margin-top: 40px;
+    margin-bottom: 20px;
+    margin-left: 300px;
+     border:1mm ridge; 
+        border-color:rgb(241, 238, 238);
+    width: 600px;
+    padding: 1px; ;
+    justify-content: center;
+       align-items: center;
+}
+
+.success{
+    
+    background: rgb(176, 202, 170);
+        width: auto;
+        overflow: hidden;
+        margin: auto;
+        margin: 20 0 0 450px;
+        padding: 80px;
+        border-radius: 2px;
+        text-align: center;
+    
+}
+p{
+    font-family:system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 20px;
+    font-style: inherit;
+
+
+}
+h1{
+    color: rgb(12, 11, 36);
+    text-align: center;
+    padding: 25px;
+    font-family: system-ui,'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    font-size: 40px; 
+    margin-bottom: 10px;
+ }
+ button{
+    font-size: 30px;
+    color: green;
+    background-color: azure;
+    width:300px;
+    height: 40px;
+    border: 0px;
+    border-radius: 5px;
+    padding-left: 8px;
+  }
+ 
