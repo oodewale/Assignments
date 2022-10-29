@@ -1,82 +1,143 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+
+
 *{
-    margin:0;
-    padding:0px;
-    box-sizing: content-box;
-   
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
 }
+
 body{
-    width: 600px;
-    height: 100px;
-      background-image: url(https://img.freepik.com/free-vector/low-poly-white-background-design_1017-33204.jpg?w=2000) ;
-      background-attachment: fixed;
-}
-main{
-    margin-top: 40px;
-    margin-bottom: 0px;
-    margin-left: 450px;
-     border:1mm ridge; 
-        border-color:rgb(241, 238, 238);
-    width: 340px;
-    padding: 1px; ;
-    justify-content: center;
-       align-items: center;
-}   
-.welbox{
-    background-color: green;
-    width: 335px;
-    padding:1px;
-    
+    font-size: 15px;
+    background-color: hsl(0, 0%, 95%);
     display: flex;
     justify-content: center;
-    text-align: center;
 }
- .welbox h1 {
-    margin: auto;
-    color: azure;
-    font-size:30px;
-    font-size: bold;
-    padding-bottom : 5px;
-}
-.regbox{
-      background-color:rgb(206, 221, 233);
-    text-align: center;
-}
- .firstLabel {
-    margin-right:92px;
-   }
-   .date{
-    width: 200px;
-    margin-right: 79px;
-   }
-   .color{
-    width: 150px;
-  padding:5px
-   ;border-radius: 0.2rem;
 
-   }
-.pnumber {
-    margin-right:66px;
+.title{
+    color: hsl(0, 0%, 95%);
+    font-family: 'Big Shoulders Display', cursive;
 }
-input{
-    width: 155px;
-    border-width:1px;
-    border-radius:0.2rem;
-   padding: 5px;
+
+.text{
+    color: hsla(0, 0%, 100%, 0.75);
+    font-family: 'Lexend Deca', sans-serif;
+    line-height: 1.5;
 }
-#gender{
-    width: 328px;
-  padding:5px
-   ;border-radius: 0.2rem;
+
+button{
+    background-color: hsl(0, 0%, 95%);
+    border: none;
+    font-family:'Lexend Deca', sans-serif;
 }
-   .registerbtn {
-    background-color: green;
-    color: azure;
-    padding: 10px;
-    margin: auto;
-    border-radius: 0.2rem;
+
+.container{
+    width: 80%;
+    max-width: 350px;
+}
+
+.d-flex{
+    display: flex;
+    flex-direction: column;
+    margin: 2em 0;
+    /* border-radius: 10px; */
+    /* border: 1px solid green; */
+}
+
+.sedans-column{
+    background-color: hsl(31, 77%, 52%);
+    padding:0 3em;
+    border-radius: 10px 10px 0px 0px;
+}
+
+.suvs-column{
+    background-color: hsl(184, 100%, 22%);
+    padding:0 3em;
+}
+
+.luxury-column{
+    background-color: hsl(179, 100%, 13%);
+    padding:0 3em;
+    border-radius: 0px 0px 10px 10px;
+}
+
+.icon{
+    margin-bottom: 2em;
+    margin-top: 3em;
+}
+
+.title{
+    margin-bottom: 1em;
+}
+
+.text{
+    width: 90%;
+}
+
+button{
+    margin-top: 3em;
+    padding: 1em 3em;
+    border-radius: 20px;
+    margin-bottom: 3em;
     cursor: pointer;
-    width: 315px;
-    text-align: center; 
-    }
- 
+    transition: 1s;
+}
 
+.sedans-btn{
+    color: hsl(31, 77%, 52%);
+}
+
+.suvs-btn{
+    color:hsl(184, 100%, 22%) ;
+}
+.luxury-btn{
+    color: hsl(179, 100%, 13%);
+}
+
+button:hover,
+button:focus{
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+}
+
+.grid-btn{
+    border: none;
+    border-radius: 20px;
+    background-color: #ff5fc7;
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-bottom: 0;
+}
+
+@media screen and (min-width:703px) {
+    body{
+        height: 100vh;
+        align-items: center;
+    }
+
+    .d-flex{
+        flex-direction: row;
+    }
+
+    .container{
+        width: 80%;
+        max-width: 780px;
+    }
+
+    .text{
+        width: 100%;
+    }
+
+    .sedans-column{
+        border-radius: 10px 0px 0px 10px;
+    }
+
+    .luxury-column{
+        border-radius: 0px 10px 10px 0px;
+    }
+}
