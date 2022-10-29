@@ -1,0 +1,82 @@
+*{
+    margin:0;
+    padding:0px;
+    box-sizing: content-box;
+   
+}
+body{
+    width: 600px;
+    height: 100px;
+      background-image: url(https://img.freepik.com/free-vector/low-poly-white-background-design_1017-33204.jpg?w=2000) ;
+      background-attachment: fixed;
+}
+main{
+    margin-top: 40px;
+    margin-bottom: 0px;
+    margin-left: 450px;
+     border:1mm ridge; 
+        border-color:rgb(241, 238, 238);
+    width: 340px;
+    padding: 1px; ;
+    justify-content: center;
+       align-items: center;
+}   
+.welbox{
+    background-color: green;
+    width: 335px;
+    padding:1px;
+    
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+ .welbox h1 {
+    margin: auto;
+    color: azure;
+    font-size:30px;
+    font-size: bold;
+    padding-bottom : 5px;
+}
+.regbox{
+      background-color:rgb(206, 221, 233);
+    text-align: center;
+}
+ .firstLabel {
+    margin-right:92px;
+   }
+   .date{
+    width: 200px;
+    margin-right: 79px;
+   }
+   .color{
+    width: 150px;
+  padding:5px
+   ;border-radius: 0.2rem;
+
+   }
+.pnumber {
+    margin-right:66px;
+}
+input{
+    width: 155px;
+    border-width:1px;
+    border-radius:0.2rem;
+   padding: 5px;
+}
+#gender{
+    width: 328px;
+  padding:5px
+   ;border-radius: 0.2rem;
+}
+   .registerbtn {
+    background-color: green;
+    color: azure;
+    padding: 10px;
+    margin: auto;
+    border-radius: 0.2rem;
+    cursor: pointer;
+    width: 315px;
+    text-align: center; 
+    }
+ 
+
